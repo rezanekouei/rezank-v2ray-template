@@ -1,0 +1,25 @@
+{
+  "inbounds": [{
+    "port": 443,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "0c6f4ab9-0ec8-41aa-8c98-4b315c8ce507",
+        "level": 0,
+        "email": "rezank@v2ray"
+      }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "security": "tls",
+      "wsSettings": {
+        "path": "/rezank-ws"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
